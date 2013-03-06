@@ -25,13 +25,13 @@
  */
 #include <SPI.h>
 #include <Ethernet.h>
-
+#include <MyAddress.h> // My MAC & IP address
 
 // Enter a MAC address and IP address for your controller below.
 // The IP address will be dependent on your local network:
-byte mac[] = { 
-  0x00, 0xAA, 0xBB, 0xCC, 0xDE, 0x01 };
-IPAddress ip(192,168,1,20);
+//byte mac[] = { 
+//  0x00, 0xAA, 0xBB, 0xCC, 0xDE, 0x01 };
+//IPAddress ip(192,168,1,20);
 
 // initialize the library instance:
 EthernetClient client;
